@@ -1,11 +1,36 @@
-# Loader_i3a
+# I3A Agents Desktop Client
 
-[![Build Status](https://travis-ci.org/Arquisoft/Loader_i3a.svg?branch=master)](https://travis-ci.org/Arquisoft/Loader_i3a)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27b04e16c41248d0abad6d5a4ce83911)](https://www.codacy.com/app/jelabra/Loader_i3a?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Arquisoft/Loader_i3a&amp;utm_campaign=Badge_Grade)
-[![codecov](https://codecov.io/gh/Arquisoft/Loader_i3a/branch/master/graph/badge.svg)](https://codecov.io/gh/Arquisoft/Loader_i3a)
+| | **Status** |
+|---|:----|
+| **circleCI** |[![Build Status](https://travis-ci.org/Arquisoft/Loader_i3a.svg?branch=master)](https://travis-ci.org/Arquisoft/Loader_i3a)
+| **code coverage** |[![codecov](https://codecov.io/gh/Arquisoft/Loader_i3a/branch/master/graph/badge.svg)](https://codecov.io/gh/Arquisoft/Loader_i3a)
+| **code quality** |[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27b04e16c41248d0abad6d5a4ce83911)](https://www.codacy.com/app/jelabra/Loader_i3a?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Arquisoft/Loader_i3a&amp;utm_campaign=Badge_Grade)
+| **latest build** |-
+
+This client forms part of platform called GestUsers, if you don't know about it, we encourage you to see this other [repo](https://github.com/asw-i3a/project-documentation) first.
+
+It allows System Manager to load agents in the system from an Excel file.
+
+### Package
+|Group|Artifact|
+|-----|--------|
+|io.github.asw.i3a|agents.desktop.client|
+
+# Authors
+
+- Gonzalo de la Cruz Fernández (UO244583)
+- Oriol Invernón Llaneza (UO245303)
+- Adrian Mirón Cao (UO244843)
+
+## Maintainers
+- Elena Allegue González ([@eleallegue](https://github.com/eleallegue))
+- Marcos Álvarez García ([@alvarezGarciaMarcos](https://github.com/alvarezGarciaMarcos))
+- Anamaria Cotorei ([@uo251547](https://github.com/UO251547))
+- Cristina Vena Naredo ([@cristinavn](https://github.com/cristinavn))
 
 # Setup
 This program is almost ready to use, but first of all, you need to download [Maven](https://maven.apache.org/).
+
 ## Downloading and installing Maven
 ### Windows
 Download Maven from this [link](https://maven.apache.org/download.cgi).
@@ -41,7 +66,7 @@ Now you are one step further to execute the application, you just have to move t
 ```sh
 cd target
 
-move Loader_i31a-x.x-with-dependencies.jar ../
+move Loader_i31a-x.x.jar ../
 
 cd ..
 ```
@@ -51,7 +76,7 @@ cd ..
 ```sh
 cd target
 
-mv Loader_i31a-x.x-with-dependencies.jar ../
+mv Loader_i31a-x.x.jar ../
 
 cd ..
 ```
@@ -59,23 +84,8 @@ cd ..
 ## Using the program
 To use the application once you have done the setup, just put the excel file that holds the agents in the same folder where the executable file is and use this command:
 ```sh
-java -jar Loader_i31a-x.x-with-dependencies.jar your-excel-file.xlsx
+java -jar Loader_i31a-x.x.jar your-excel-file.xlsx
 ```
 So now you have the application working, congratulations and enjoy it!
 
 *Note: the x.x references the release version that you are downloading*
-
-
-
-# Authors
-
-* Elena Allegue González ([@eleallegue](https://github.com/eleallegue))
-* Marcos Álvarez García ([@alvarezGarciaMarcos](https://github.com/alvarezGarciaMarcos))
-* Anamaria Cotorei ([@uo251547](https://github.com/UO251547))
-* Cristina Vena Naredo ([@cristinavn](https://github.com/cristinavn))
-
-# Last Team Authors
-
-* Gonzalo de la Cruz Fernández (UO244583)
-* Oriol Invernón Llaneza (UO245303)
-* Adrian Mirón Cao (UO244843)
